@@ -8,7 +8,7 @@ if (userPass === null) {
   message = 'Отменено пользователем!';
 } else if (userPass === ADMIN_PASSWORD) {
   message = 'Добро пожаловать!';
-} else if (userPass !== ADMIN_PASSWORD) {
+} else {
   message = 'Доступ запрещен, неверный пароль!';
 }
 

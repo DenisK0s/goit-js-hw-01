@@ -3,7 +3,9 @@ let message;
 
 let deliveryCountry = prompt('Пожалуйста укажите страну!');
 
-deliveryCountry = deliveryCountry.toLowerCase();
+if (deliveryCountry !== null) {
+  deliveryCountry = deliveryCountry.toLowerCase();
+}
 
 switch (deliveryCountry) {
   case 'китай': {
