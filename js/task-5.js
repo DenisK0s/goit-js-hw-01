@@ -8,35 +8,40 @@ deliveryCountry = deliveryCountry.toLowerCase();
 switch (deliveryCountry) {
   case 'китай': {
     price = '100';
-    message = `Доставка в ${countryName} будет стоить ${price} кредитов`;
+    deliveryCountry = 'Китай';
+    message = `Доставка в ${deliveryCountry} будет стоить ${price} кредитов`;
     alert(message);
     break;
   }
   
   case 'чили': {
     price = '250';
-    message = `Доставка в ${countryName} будет стоить ${price} кредитов`;
+    deliveryCountry = 'Чили';
+    message = `Доставка в ${deliveryCountry} будет стоить ${price} кредитов`;
     alert(message);
     break;
   }
     
   case 'австралия': {
     price = '170';
-    message = `Доставка в ${countryName} будет стоить ${price} кредитов`;
+    deliveryCountry = 'Австралия';
+    message = `Доставка в ${deliveryCountry} будет стоить ${price} кредитов`;
     alert(message);
     break;
   }
    
   case 'индия': {
     price = '80';
-    message = `Доставка в ${countryName} будет стоить ${price} кредитов`;
+    deliveryCountry = 'Индия';
+    message = `Доставка в ${deliveryCountry} будет стоить ${price} кредитов`;
     alert(message);
     break;
   }
     
   case 'ямайка': {
     price = '120';
-    message = `Доставка в ${countryName} будет стоить ${price} кредитов`;
+    deliveryCountry = 'Ямайка';
+    message = `Доставка в ${deliveryCountry} будет стоить ${price} кредитов`;
     alert(message);
     break;
   }
